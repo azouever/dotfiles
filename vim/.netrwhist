@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/xukaixuan/Desktop/ralog'
+let g:netrw_dirhist_5='/Users/xukaixuan/IdeaProjects/ralph/src/main/java/com/ezhiyang/ralph/provider'
+let g:netrw_dirhist_4='/Users/xukaixuan/IdeaProjects/ralph/src/main/java/com/ezhiyang/ralph/provider/dto'
+let g:netrw_dirhist_3='/Users/xukaixuan/IdeaProjects/ralph/src/main/java/com/ezhiyang/ralph/provider'
+let g:netrw_dirhist_2='/Users/xukaixuan/IdeaProjects/ralph/src/main/java/com/ezhiyang/ralph/provider/callback'
+let g:netrw_dirhist_1='/Users/xukaixuan/IdeaProjects/ralph/src/main/java/com/ezhiyang/ralph/provider'
