@@ -1,0 +1,2 @@
+#!/bin/zsh
+man $1 | col -b | vim -
