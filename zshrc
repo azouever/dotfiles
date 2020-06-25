@@ -1,13 +1,14 @@
+export EDITOR=/usr/local/bin/vim
 source ~/.bash_profile
 
 zstyle ':completion:*:*:git:*' script ~/.git-completion.bash
 fpath=(~/.zsh $fpath)
 autoload -Uz compinit && compinit
 #autojump setting
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+#[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+#export PATH="$HOME/.jenv/bin:$PATH"
+#eval "$(jenv init -)"
 
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
 
@@ -20,8 +21,6 @@ function git_branch {
        echo $branch
    fi
 }
-export PS1="kai %* %~ 🍁 "
-#export PS1="kai %* %~ $(git_branch) 🍁 "
 export LC_MESSAGES=en_US.UTF-8
 export HISTSIZE=500
 
@@ -141,3 +140,7 @@ export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S"
 # translate-shell
 export LDFLAGS="-L/usr/local/opt/readline/lib"
 export CPPFLAGS="-I/usr/local/opt/readline/include"
+PS1='ecs'$PS1
+export PATH=~/.scripts:$PATH
+LANG=en_US.UTF_-8
+

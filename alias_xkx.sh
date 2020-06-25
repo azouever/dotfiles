@@ -2,7 +2,6 @@ alias ..='cd ..'
 alias cls=clear
 alias tx=tmux
 alias eg=tldr
-alias op=open
 alias ls='ls -G --color=auto'
 alias la='ls -AlhtF'
 alias op=open
@@ -18,9 +17,9 @@ alias uuid2paste="echo -n `uuidgen` | sed 's/[-]//g' | pbcopy"
 alias date2paste="echo -n `date +"%Y-%m-%d %H:%M:%S"` | pbcopy"
 alias copy='tr -d "\n" | pbcopy'
 alias vim='/usr/local/bin/vim'
+alias vi='/usr/local/bin/vim'
 alias sed=gsed
 alias awk=gawk
-
 alias python="/usr/local/bin/python3"
 alias date='date +"%Y-%m-%d %H:%M:%S"'
 alias cdd=pushd
