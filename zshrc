@@ -141,6 +141,9 @@ export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S"
 export LDFLAGS="-L/usr/local/opt/readline/lib"
 export CPPFLAGS="-I/usr/local/opt/readline/include"
 PS1='ecs'$PS1
-export PATH=~/.scripts:$PATH
+login_name=`whoami`
+if [ "root" = "$login_name" ];
+then PS1='root-'$PS1
+fi
 LANG=en_US.UTF_-8
 
