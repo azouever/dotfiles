@@ -147,3 +147,4 @@ then PS1='root-'$PS1
 fi
 LANG=en_US.UTF_-8
 PATH=~/.scripts:$PATH
+setterm -blength 0
