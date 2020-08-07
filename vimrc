@@ -31,6 +31,8 @@ let g:airline_right_alt_sep = '❮'
 "
 "set go=
 set number
+set autoindent
+set ts=4
 set ignorecase smartcase
 syntax on
 set showmode
